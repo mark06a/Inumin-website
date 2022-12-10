@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- icon -->
+
+    <!-- Google fonts End -->
+
+    <!-- custon style Sheet & JavaScript -->
+    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="about.css">
+    <script src="index.js" defer></script>
+    <script src="shop.js" defer></script>
+   <script src="home.css" defer></script>   
+    <script src="home.js" defer></script>   
+    <!-- custon style Sheet & JavaScript -->
+    <title>Inumin Website</title>
+  </head>
+  <body class="home">
+    <header class="primary-header container flex">
+      <div class="header-inner-one flex">
+        <div class="logo">
+          <img src="image/123a.png" alt="" />
+        </div>
+        <button
+          class="mobile-close-btn" data-visible="false"
+          aria-controls="primary-navigation">
+        <i class="uil uil-times-circle "></i></button>
+        <nav>
+          <ul id="primary-navigation" data-visible="false"
+            class="primary-navigation flex">
+            <li>
+              <a class="fs-100 fs-montserrat bold-500" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a>
+            </li>
+            <li>
+              <a class="active fs-100 fs-montserrat bold-500" href="about.html"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="fs-100 fs-montserrat bold-500" href="contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-login flex">
+        <p class="fs-100 fs-montserrat bold-500">login</p>
+        <i class="uil uil-search"></i> 
+        <i id="cart-box" aria-controls="cart-icon"
+         class="uil uil-shopping-bag"></i>
+
+        <!-- =================1111111111================== -->
+        <div id="cart-icon" data-visible="false" class="cart-icon">
+          <div class="shopping flex">
+            <p>Shopping Basket</p>
+            <i id="cross-btn" class="uil uil-times"></i>
+          </div>
+          <div class="cart bold-800 flex">
+            <i class="uil uil-shopping-cart-alt"></i>
+            <p>Cart Is Empty</p>
+
+            <!-- ================================================== -->
+
+            <!-- ================================================== -->
+          </div>
+        </div>
+      </div>
+      <div class="mobile-open-btn"><i class="uil uil-align-right"></i></div>
+    </header>
+
+<!-- ===========End=Header Section=============================================================== -->
+
+    <!-- ========================hero Section========================== -->
+
+    <main class="hero-section">
+        <div>
+       <h1 class ="fs-200 fs-poppins">Featured <span class="big-wireless block
+         lineheight fs-300 blod-900 fs-poppins">Drinks</span><span class="text-white uppercase  lineheight1 bold-bolder fs-poppins                         fs-900">tea drink</span></h1> 
+       <img src="imahe/123z543-removebg.png" alt="">
+    </div>
+    <div class="hero-inner flex">
+       <div>
+           <button class="large-btn bg-black text-white fs-poppins fs-50">Shop By category</button>
+       </div>
+       <div class="hero-info">
+            <h4 class="fs-montserrat">Description</h4>
+            <p class="fs-montserrat"> One person, one cup, and one neighborhood at a time: that is our mission: to uplift and nourish the human spirit. With its own specialty and one online store.
+            </p>
+       </div>
+    </main>
+
+     <!-- ========================end of==heroSection========================== --> 
+
+     <!-- ========================Product Section==================== --> 
+
+     <section class= "product-section">
+      
+      <!-- ================1======================= --> 
+      <div class="category bg-gray3 grid">
+        <div>
+        <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="Tumbler uppercase fs-400 fs-montserrat blod-900 lineheight">Tumbler</span></h3>
+        <button class="product-btn large-btn text-black bg-white fs-montserrat">Browse</button>
+        </div>
+ 
+        <div class="product-img4">
+        <img src="image/1ab.png" alt="">
+        </div>
+     </div>
+                <!-- ================2======================= -->  
+   <div class="category bg-gray4 grid">
+    <div>
+    <h3 class="text-black fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="Tumbler uppercase fs-400 fs-montserrat blod-900 lineheight">Green Tea</span></h3>
+    <button class="product-btn large-btn text-black bg-white fs-montserrat">Browse</button>
+    </div>
+
+    <div class="product-img4">
+    <img src="image/cof.png" alt="">
+    </div>
+ </div>
+                <!-- ================3======================= -->
+   <div class="category bg-gray5 grid">
+    <div>
+    <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="Tumbler uppercase fs-400 fs-montserrat blod-900 lineheight">Mug</span></h3>
+    <button class="product-btn large-btn text-black bg-white fs-montserrat">Browse</button>
+    </div>
+
+    <div class="product-img4">
+    <img src="image/b1.png" alt="">
+    </div>
+ </div>
+                 <!-- ================4======================= -->
+    
+        <div class="category bg-gray6 grid">
+        <div>
+        <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="Tumbler uppercase fs-400 fs-montserrat blod-900 lineheight">Mug <br> tree</span></h3>
+        <button class="product-btn large-btn text-black bg-white fs-montserrat">Browse</button>
+        </div>
+    
+           <div class="product-img4">
+           <img src="image/1Mug tree.png" alt="">
+           </div>
+        </div>
+                   <!-- ================5======================= -->
+          <div class="category bg-gray7 grid">
+            <div>
+            <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="Tumbler uppercase fs-400 fs-montserrat blod-900 lineheight">Insulated cup</span></h3>
+            <button class="product-btn large-btn text-black bg-white fs-montserrat">Browse</button>
+            </div>
+     
+            <div class="product-img4">
+            <img src="image/1ac.png" alt="">
+            </div>
+         </div>
+                     <!-- ================6======================= -->
+          <div class="category bg-gray8 grid">
+            <div>
+            <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="Tumbler uppercase fs-400 fs-montserrat blod-900 lineheight">insulated tumbler</span></h3>
+            <button class="product-btn large-btn text-black bg-white fs-montserrat">Browse</button>
+            </div>
+     
+            <div class="product-img4">
+            <img src="image/1ad.png" alt="">
+            </div>
+         </div>
+
+        </section>
+     <!-- ========================Product Section==================== --> 
+    
+     <!-- ========================Service Section==================== -->  
+ 
+     <section class="service-section">
+          <div class="service">
+            <img src="image/free.svg" alt="">
+            <div class="service-info">
+              <h3 class="fs-poppins fs-200">Free shipping</h3>
+              <P class="fs-montserrat fs-50">Fee shipping On All Order</P>
+            </div>
+          </div>
+          <div class="service">
+            <img src="image/sett.svg" alt="">
+            <div class="service-info">
+              <h3 class="fs-poppins fs-200">Money Guarantee</h3>
+              <P class="fs-montserrat fs-50">30 Day Money Back</P>
+            </div>
+          </div>
+          <div class="service">
+            <img src="image/supt.svg" alt="">
+            <div class="service-info">
+              <h3 class="fs-poppins fs-200">Online Support</h3>
+              <P class="fs-montserrat fs-50">Technical Support</P>
+            </div>
+          </div>
+          <div class="service">
+            <img src="image/pay.svg" alt="">
+            <div class="service-info">
+              <h3 class="fs-poppins fs-200">Secure Payment</h3>
+              <P class="fs-montserrat fs-50">credit cards, debit cards, and cash.</P>
+            </div>
+           </div>
+     </section>
+         
+     
+     <!-- ========================Service Section====================== -->
+     
+     <!--===============feature Section======================== --> 
+
+     <section class="feature-section bg-gray1">
+        <div class="feature-one grid">
+          <img src="image/ab2.png" alt="">
+        <p class="text-white uppercase">20% OFF</p>
+        <p class="font-size lineheight2 fs-600 text-white fs-poppins blod-900 uppercase">Sale<br><span ckass="smile">Product</span></p>
+        <p class="text-white fs-poppins fs-50">30 Nov To & Dec</p>
+      </div>
+      <div class="feature-info">
+        <h2 class="fs-200 text-white fs-poppins bold-500">Electric kettle</h2>
+        <p class="fs-poppins fs-300 bold-800 text-white">EXCLUSIVE PRODUCTS</p>
+        <p class="prodduct-btn large-btn text-black bg-white fs-poppins">Here You Can Find Your Favorite Product 
+        </p>
+        <button>Shop</button>
+      </div>
+     </section>
+     
+     
+     <!--===============feature Section======================== --> 
+     
+     <!--===============Best Seller product======================== --> 
+     
+     <!-- ==============Heading================= --> 
+     <section class="best-product container">
+      <h2 class="letter-spacing bold-bolder fs-300 fs-poppins">Best Selling Inumin Product </h2>
+      <p class="fs-montserrat fs-100"> speaker There are many variations passages
+        </p>
+     </section>
+
+      <section class="best-Seller">
+
+        <!--  ======================================= -->
+        <div class ="product grid">
+           <img src="image/p1.png" alt="">
+           <p class="fs-poppins bold-500">Coffee Beans</p>
+           <p class="fs=poppins bold-500">₱300</p>
+           <!--  ============================== -->
+          <div class="product-details grid bg-black">
+           <i class="uil text-white uil-shopping-cart-alt"></i>
+           <i class="uil text-white uil-heart"></i>
+         </div>
+         <!--  ======================================= -->
+      </div>
+      <!--  ======================================= -->
+      <div class ="product grid">
+        <img src="image/p2.png" alt="">
+        <p class="fs-poppins bold-500">Black Tea</p>
+        <p class="fs=poppins bold-500">₱300</p>
+        <!--  ============================== -->
+        <div class="product-details grid bg-black">
+        <i class="uil text-white uil-shopping-cart-alt"></i>
+        <i class="uil  text-white uil-heart"></i>
+      </div>
+             <!--  ======================================= -->
+    </div>
+    <!--  ======================================= -->
+    <div class ="product grid">
+      <img src="image/p3.png" alt="">
+      <p class="fs-poppins bold-500">Oolong Tea</p>
+      <p class="fs=poppins bold-500">₱300</p>
+      <!--  ============================== -->
+      <div class="product-details grid bg-black">
+      <i class="uil text-white uil-shopping-cart-alt"></i>
+      <i class="uil  text-white uil-heart"></i> 
+    </div>
+           <!--  ======================================= -->
+  </div>
+  <!--  ======================================= -->
+  <div class ="product grid">
+    <img src="image/p4.png" alt="">
+    <p class="fs-poppins bold-500">Juice Powder</p>
+    <p class="fs=poppins bold-500">₱300</p>
+    <!--  ============================== -->
+    <div class="product-details grid bg-black">
+    <i class="uil text-white uil-shopping-cart-alt"></i>
+    <i class="uil  text-white uil-heart"></i>
+  </div>
+         <!--  ======================================= -->
+</div>
+<!--  ======================================= -->
+<div class ="product grid">
+    <img src="image/p5.png" alt="">
+    <p class="fs-poppins bold-500">Tea Sweetner</p>
+    <p class="fs=poppins bold-500">₱300</p>
+    <!--  ============================== -->
+    <div class="product-details grid bg-black">
+    <i class="uil text-white uil-shopping-cart-alt"></i>
+    <i class="uil  text-white uil-heart"></i>
+  </div>
+       <!--  ======================================= -->
+</div>
+<!--  ======================================= -->
+<div class ="product grid">
+  <img src="image/p6.png" alt="">
+  <p class="fs-poppins bold-500">Green Tea</p>
+  <p class="fs=poppins bold-500">₱300</p>
+  <!--  ============================== -->
+  <div class="product-details grid bg-black">
+  <i class="uil text-white uil-shopping-cart-alt"></i>
+  <i class="uil  text-white uil-heart"></i> 
+</div>
+       <!--  ======================================= -->
+</div>
+<!--  ======================================= -->
+<div class ="product grid">
+  <img src="image/p7.png" alt="">
+  <p class="fs-poppins bold-500">Paper bag</p>
+  <p class="fs=poppins bold-500">₱20</p>
+  <!--  ============================== -->
+  <div class="product-details grid bg-black">
+  <i class="uil text-white uil-shopping-cart-alt"></i>
+  <i class="uil  text-white uil-heart"></i> 
+</div>
+       <!--  ======================================= -->
+</div>
+<!--  ======================================= -->
+<div class ="product grid">
+  <img src="image/p8.png" alt="">
+  <p class="fs-poppins bold-500">Teacup</p>
+  <p class="fs=poppins bold-500">₱155.65</p>
+  <!--  ============================== -->
+  <div class="product-details grid bg-black">
+  <i class="uil text-white uil-shopping-cart-alt"></i>
+  <i class="uil  text-white uil-heart"></i>
+</div>
+       <!--  ======================================= -->
+</div>  
+    </section>
+
+       <!--===============Best Seller product======================== -->  
+       
+        <!-- ----------------Heading ============ -->
+        <section class="best-product container">
+          <h2 class="letter-spacing bold-bolder fs-300 fs-poppins">Executive Team</h2>
+         </section>
+         
+         <section class="recent-news grid">
+          <!-- =====================================================? -->
+          <div class="news grid">
+            <img src="image/owo1.png" alt="">
+            <div class="fs-montserrat fs-100 padding-inline flex">
+             <p>December 3 2022</p>
+          </div>
+          <h2 class="fs-poppins padding-inline fs-200 bold-600">Mark Allyson Federio </h2>
+        </div>
+         <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+          <!-- =====================================================? -->
+          <div class="news grid">
+            <img src="image/owo3.png" alt="">
+            <div class="fs-montserrat padding-inline fs-100 flex">
+             <p>Dec 3 2022</p>
+       
+          </div>
+          <h2 class="fs-poppins padding-inline fs-200 bold-600">Peter jornales </h2>
+          </p>
+        </div>
+         <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+          <!-- =====================================================? -->
+          <div class="news grid">
+            <img src="image/owo2.png" alt="">
+            <div class="fs-montserrat fs-100 padding-inline flex">
+             <p>December 3 2022</p>
+          </div>
+          <h2 class="fs-poppins padding-inline fs-200 bold-600">Mark anthony jacinto</h2>
+          <p class="fs-montserrat padding-inline fs-100">
+          </p>
+        </div>
+         <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        </section>
+        <!-- ----------------Heading Recent News ============ -->
+        
+      
+    <!-- =============Brands================= -->
+    <section class="brands grid">
+      <div>
+        <a href="https://jmagdaraog6.wixsite.com/hexagon-com?fbclid=IwAR3XvZNVuJ_hHoxKgTaT8ktgsoPGz_v7ZQW_B2xqVcbVMAsMWJ0PwkXjLRk/">
+       <img src="image/21.png" alt="">
+        </a>
+    </div>
+      <div>
+     <img src="image/223.png" alt="">
+    </div>
+      <div>
+     <a href="https://jmagdaraog6.wixsite.com/hexagon-com?fbclid=IwAR3XvZNVuJ_hHoxKgTaT8ktgsoPGz_v7ZQW_B2xqVcbVMAsMWJ0PwkXjLRk/">
+       <img src="image/23.png" alt="">
+     </a>
+</div>
+    </section>
+
+<!-- =============Footer Menu=================== -->
+ <section class="footer grid">
+     <div class="footer-logo grid">
+       <img src="image/123a.png" alt="">
+       <p class="fs-montserrat fs-200">There are many variations passages of Lorem Ipsum available, but the majority have</p>
+       <div class="social-media flex">
+        <a href="https://www.facebook.com/AllysonFederio">
+              <i class="uil uil-facebook-f"></i>
+       </a>
+        <a href="https://www.instagram.com/peter_jornales/">
+       <i class="uil uil-instagram"></i>
+        </a>
+       <a href="https://www.youtube.com/watch?v=GtL1huin9EE&ab_channel=CSAAInsuranceGroup%2CaAAAInsurer">
+      <i class="uil uil-linkedin"></i>
+       </a>
+        <i class="uil uil-twitter"></i>
+       </div>
+     </div>
+    
+      <div class="footer-menu grid">
+        <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+        <ul>
+          <li><a class="fs-montserrat text-black fs-200" href="home.html">Home</a></li>
+          <li><a class="fs-montserrat text-black fs-200" href="about.html">About</a></li>
+          <li><a class="fs-montserrat text-black fs-200" href="shop.html">Shop</a></li>
+          <li><a class="fs-montserrat text-black fs-200" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="contact grid">
+
+        <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+        <p class="fs-montserrat">0999 999 9999 <br> Peter jornales <br>
+  Ateneo Ave, Naga, 4400 Camarines Sur</p>
+       </div>
+
+      <div class="emails grid">
+       <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+       <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+       <div class="inputField flex bg-gray">
+       <input type="email" placeholder="Enter Your Email" class="fs-montserrat bg-gray" >
+       <button class="bg-black text-white fs-poppins fs-50">Subscribe</button>
+      </div>
+     </div>
+ </section>s
+    
+     <section class="copyRight">
+      <p class="c-font fs-montserrat fs-200">© 2022 eStore. All rights reserved.</p>
+      <p class="fs-montserrat fs-100 text-align p-top">Privacy Policy . Term Condition</p>
+     </section>
+  </body>
+</html>
